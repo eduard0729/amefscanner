@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4BB3F1B296ADE770049979C /* AMEFScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3F1A296ADE770049979C /* AMEFScannerApp.swift */; };
+		A4BB3F1D296ADE770049979C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3F1C296ADE770049979C /* ContentView.swift */; };
+		A4BB3F1F296ADE7F0049979C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4BB3F1E296ADE7F0049979C /* Assets.xcassets */; };
+		A4BB3F22296ADE7F0049979C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4BB3F21296ADE7F0049979C /* Preview Assets.xcassets */; };
+		A4BB3F2C296ADE7F0049979C /* AMEFScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3F2B296ADE7F0049979C /* AMEFScannerTests.swift */; };
+		A4BB3F36296ADE7F0049979C /* AMEFScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3F35296ADE7F0049979C /* AMEFScannerUITests.swift */; };
+		A4BB3F38296ADE7F0049979C /* AMEFScannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3F37296ADE7F0049979C /* AMEFScannerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4BB3F28296ADE7F0049979C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4BB3F0F296ADE770049979C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4BB3F16296ADE770049979C;
+			remoteInfo = AMEFScanner;
+		};
+		A4BB3F32296ADE7F0049979C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4BB3F0F296ADE770049979C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4BB3F16296ADE770049979C;
+			remoteInfo = AMEFScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4BB3F17296ADE770049979C /* AMEFScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMEFScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4BB3F1A296ADE770049979C /* AMEFScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMEFScannerApp.swift; sourceTree = "<group>"; };
+		A4BB3F1C296ADE770049979C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A4BB3F1E296ADE7F0049979C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4BB3F21296ADE7F0049979C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4BB3F27296ADE7F0049979C /* AMEFScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMEFScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4BB3F2B296ADE7F0049979C /* AMEFScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMEFScannerTests.swift; sourceTree = "<group>"; };
+		A4BB3F31296ADE7F0049979C /* AMEFScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMEFScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4BB3F35296ADE7F0049979C /* AMEFScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMEFScannerUITests.swift; sourceTree = "<group>"; };
+		A4BB3F37296ADE7F0049979C /* AMEFScannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMEFScannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4BB3F14296ADE770049979C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4BB3F24296ADE7F0049979C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4BB3F2E296ADE7F0049979C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4BB3F0E296ADE770049979C = {
+			isa = PBXGroup;
+			children = (
+				A4BB3F19296ADE770049979C /* AMEFScanner */,
+				A4BB3F2A296ADE7F0049979C /* AMEFScannerTests */,
+				A4BB3F34296ADE7F0049979C /* AMEFScannerUITests */,
+				A4BB3F18296ADE770049979C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4BB3F18296ADE770049979C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4BB3F17296ADE770049979C /* AMEFScanner.app */,
+				A4BB3F27296ADE7F0049979C /* AMEFScannerTests.xctest */,
+				A4BB3F31296ADE7F0049979C /* AMEFScannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4BB3F19296ADE770049979C /* AMEFScanner */ = {
+			isa = PBXGroup;
+			children = (
+				A4BB3F1A296ADE770049979C /* AMEFScannerApp.swift */,
+				A4BB3F1C296ADE770049979C /* ContentView.swift */,
+				A4BB3F1E296ADE7F0049979C /* Assets.xcassets */,
+				A4BB3F20296ADE7F0049979C /* Preview Content */,
+			);
+			path = AMEFScanner;
+			sourceTree = "<group>";
+		};
+		A4BB3F20296ADE7F0049979C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A4BB3F21296ADE7F0049979C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A4BB3F2A296ADE7F0049979C /* AMEFScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4BB3F2B296ADE7F0049979C /* AMEFScannerTests.swift */,
+			);
+			path = AMEFScannerTests;
+			sourceTree = "<group>";
+		};
+		A4BB3F34296ADE7F0049979C /* AMEFScannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4BB3F35296ADE7F0049979C /* AMEFScannerUITests.swift */,
+				A4BB3F37296ADE7F0049979C /* AMEFScannerUITestsLaunchTests.swift */,
+			);
+			path = AMEFScannerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4BB3F16296ADE770049979C /* AMEFScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4BB3F3B296ADE7F0049979C /* Build configuration list for PBXNativeTarget "AMEFScanner" */;
+			buildPhases = (
+				A4BB3F13296ADE770049979C /* Sources */,
+				A4BB3F14296ADE770049979C /* Frameworks */,
+				A4BB3F15296ADE770049979C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMEFScanner;
+			productName = AMEFScanner;
+			productReference = A4BB3F17296ADE770049979C /* AMEFScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4BB3F26296ADE7F0049979C /* AMEFScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4BB3F3E296ADE7F0049979C /* Build configuration list for PBXNativeTarget "AMEFScannerTests" */;
+			buildPhases = (
+				A4BB3F23296ADE7F0049979C /* Sources */,
+				A4BB3F24296ADE7F0049979C /* Frameworks */,
+				A4BB3F25296ADE7F0049979C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4BB3F29296ADE7F0049979C /* PBXTargetDependency */,
+			);
+			name = AMEFScannerTests;
+			productName = AMEFScannerTests;
+			productReference = A4BB3F27296ADE7F0049979C /* AMEFScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4BB3F30296ADE7F0049979C /* AMEFScannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4BB3F41296ADE7F0049979C /* Build configuration list for PBXNativeTarget "AMEFScannerUITests" */;
+			buildPhases = (
+				A4BB3F2D296ADE7F0049979C /* Sources */,
+				A4BB3F2E296ADE7F0049979C /* Frameworks */,
+				A4BB3F2F296ADE7F0049979C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4BB3F33296ADE7F0049979C /* PBXTargetDependency */,
+			);
+			name = AMEFScannerUITests;
+			productName = AMEFScannerUITests;
+			productReference = A4BB3F31296ADE7F0049979C /* AMEFScannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4BB3F0F296ADE770049979C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A4BB3F16296ADE770049979C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					A4BB3F26296ADE7F0049979C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = A4BB3F16296ADE770049979C;
+					};
+					A4BB3F30296ADE7F0049979C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = A4BB3F16296ADE770049979C;
+					};
+				};
+			};
+			buildConfigurationList = A4BB3F12296ADE770049979C /* Build configuration list for PBXProject "AMEFScanner" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4BB3F0E296ADE770049979C;
+			productRefGroup = A4BB3F18296ADE770049979C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4BB3F16296ADE770049979C /* AMEFScanner */,
+				A4BB3F26296ADE7F0049979C /* AMEFScannerTests */,
+				A4BB3F30296ADE7F0049979C /* AMEFScannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4BB3F15296ADE770049979C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4BB3F22296ADE7F0049979C /* Preview Assets.xcassets in Resources */,
+				A4BB3F1F296ADE7F0049979C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4BB3F25296ADE7F0049979C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4BB3F2F296ADE7F0049979C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4BB3F13296ADE770049979C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4BB3F1D296ADE770049979C /* ContentView.swift in Sources */,
+				A4BB3F1B296ADE770049979C /* AMEFScannerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4BB3F23296ADE7F0049979C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4BB3F2C296ADE7F0049979C /* AMEFScannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4BB3F2D296ADE7F0049979C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4BB3F38296ADE7F0049979C /* AMEFScannerUITestsLaunchTests.swift in Sources */,
+				A4BB3F36296ADE7F0049979C /* AMEFScannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4BB3F29296ADE7F0049979C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4BB3F16296ADE770049979C /* AMEFScanner */;
+			targetProxy = A4BB3F28296ADE7F0049979C /* PBXContainerItemProxy */;
+		};
+		A4BB3F33296ADE7F0049979C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4BB3F16296ADE770049979C /* AMEFScanner */;
+			targetProxy = A4BB3F32296ADE7F0049979C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A4BB3F39296ADE7F0049979C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4BB3F3A296ADE7F0049979C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4BB3F3C296ADE7F0049979C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AMEFScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = KF43SC872F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tekit.AMEFScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4BB3F3D296ADE7F0049979C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AMEFScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = KF43SC872F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tekit.AMEFScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4BB3F3F296ADE7F0049979C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KF43SC872F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tekit.AMEFScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMEFScanner.app/AMEFScanner";
+			};
+			name = Debug;
+		};
+		A4BB3F40296ADE7F0049979C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KF43SC872F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tekit.AMEFScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMEFScanner.app/AMEFScanner";
+			};
+			name = Release;
+		};
+		A4BB3F42296ADE7F0049979C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KF43SC872F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tekit.AMEFScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AMEFScanner;
+			};
+			name = Debug;
+		};
+		A4BB3F43296ADE7F0049979C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KF43SC872F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tekit.AMEFScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AMEFScanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4BB3F12296ADE770049979C /* Build configuration list for PBXProject "AMEFScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4BB3F39296ADE7F0049979C /* Debug */,
+				A4BB3F3A296ADE7F0049979C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4BB3F3B296ADE7F0049979C /* Build configuration list for PBXNativeTarget "AMEFScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4BB3F3C296ADE7F0049979C /* Debug */,
+				A4BB3F3D296ADE7F0049979C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4BB3F3E296ADE7F0049979C /* Build configuration list for PBXNativeTarget "AMEFScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4BB3F3F296ADE7F0049979C /* Debug */,
+				A4BB3F40296ADE7F0049979C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4BB3F41296ADE7F0049979C /* Build configuration list for PBXNativeTarget "AMEFScannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4BB3F42296ADE7F0049979C /* Debug */,
+				A4BB3F43296ADE7F0049979C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4BB3F0F296ADE770049979C /* Project object */;
+}
