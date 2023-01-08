@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A484DB09296B649C009357F8 /* ScanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484DB08296B649C009357F8 /* ScanData.swift */; };
+		A484DB0B296B64C5009357F8 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484DB0A296B64C5009357F8 /* ScannerView.swift */; };
+		A484DB0D296B64E7009357F8 /* TextRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484DB0C296B64E7009357F8 /* TextRecognizer.swift */; };
 		A4BB3F1B296ADE770049979C /* AMEFScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3F1A296ADE770049979C /* AMEFScannerApp.swift */; };
 		A4BB3F1D296ADE770049979C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3F1C296ADE770049979C /* ContentView.swift */; };
 		A4BB3F1F296ADE7F0049979C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4BB3F1E296ADE7F0049979C /* Assets.xcassets */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A484DB08296B649C009357F8 /* ScanData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanData.swift; sourceTree = "<group>"; };
+		A484DB0A296B64C5009357F8 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		A484DB0C296B64E7009357F8 /* TextRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognizer.swift; sourceTree = "<group>"; };
 		A4BB3F17296ADE770049979C /* AMEFScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMEFScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4BB3F1A296ADE770049979C /* AMEFScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMEFScannerApp.swift; sourceTree = "<group>"; };
 		A4BB3F1C296ADE770049979C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +104,9 @@
 				A4BB3F1C296ADE770049979C /* ContentView.swift */,
 				A4BB3F1E296ADE7F0049979C /* Assets.xcassets */,
 				A4BB3F20296ADE7F0049979C /* Preview Content */,
+				A484DB08296B649C009357F8 /* ScanData.swift */,
+				A484DB0A296B64C5009357F8 /* ScannerView.swift */,
+				A484DB0C296B64E7009357F8 /* TextRecognizer.swift */,
 			);
 			path = AMEFScanner;
 			sourceTree = "<group>";
@@ -258,7 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4BB3F1D296ADE770049979C /* ContentView.swift in Sources */,
+				A484DB0B296B64C5009357F8 /* ScannerView.swift in Sources */,
+				A484DB0D296B64E7009357F8 /* TextRecognizer.swift in Sources */,
 				A4BB3F1B296ADE770049979C /* AMEFScannerApp.swift in Sources */,
+				A484DB09296B649C009357F8 /* ScanData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +360,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -402,6 +415,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -420,6 +434,7 @@
 				DEVELOPMENT_TEAM = KF43SC872F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Pentru scanare";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +464,7 @@
 				DEVELOPMENT_TEAM = KF43SC872F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Pentru scanare";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
