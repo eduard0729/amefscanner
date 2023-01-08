@@ -11,7 +11,7 @@ import SwiftUI
 struct AMEFScannerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ReceiptScanView()
         }
     }
 }
