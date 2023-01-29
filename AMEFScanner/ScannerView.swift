@@ -7,7 +7,6 @@ struct ScannerView: UIViewControllerRepresentable {
     init(completion: @escaping ([String]?) -> Void) {
         self.completionHandler = completion
     }
-     
     typealias UIViewControllerType = VNDocumentCameraViewController
      
     func makeUIViewController(context: UIViewControllerRepresentableContext<ScannerView>) -> VNDocumentCameraViewController {

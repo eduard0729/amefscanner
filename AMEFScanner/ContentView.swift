@@ -16,32 +16,35 @@ struct ContentView: View {
         if(status == .scanning){
             NavigationView{
                 VStack{
-                    
                     Text("Te rugam sa scanezi cat mai vizibil bonul fiscal")
                         .font(.title)
                         .multilineTextAlignment(.center)
                         .padding()
-                    
+                        
                     Button(action: {
                         self.showScannerSheet = true
                     }, label: {
                         Image(systemName: "doc.text.viewfinder")
                             .font(.title)
                     })
+                        .padding(16)
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
                 }
-                
-                    .navigationTitle("Scanare")
-                    .navigationBarItems(trailing: Button(action: {
-                        self.showScannerSheet = true
-                    }, label: {
-                        Image(systemName: "doc.text.viewfinder")
-                            .font(.title)
-                    })
-                    .sheet(isPresented: $showScannerSheet, content: {
-                        self.makeScannerView()
-                    })
-                    )
+                .navigationTitle("Scanare")
+                .navigationBarItems(trailing: Button(action: {
+                    self.showScannerSheet = true
+                }, label: {
+                    Image(systemName: "doc.text.viewfinder")
+                        .font(.title)
+                })
+                .sheet(isPresented: $showScannerSheet, content: {
+                    self.makeScannerView()
+                })
+                )
             }
+
         }
         else if (status == .success) {
             NavigationView{
@@ -49,36 +52,39 @@ struct ContentView: View {
                     Color.green
                         .ignoresSafeArea()
                     VStack{
-                        
                         Text("Casa de marcat \n \(self.SerieFiscala) \n ESTE \n conectata la ANAF")
                             .font(.title)
                             .multilineTextAlignment(.center)
                             .padding()
-                        
-                        
+                            .foregroundColor(.white)
+                            
                         Button(action: {
                             self.showScannerSheet = true
                         }, label: {
                             Image(systemName: "doc.text.viewfinder")
                                 .font(.title)
+                                .foregroundColor(.white)
                         })
-                        
+                            .padding(16)
+                            .background(Color.blue)
+                            .foregroundColor(.white)
+                            .cornerRadius(8)
                     }
                 }
-                
-                    .navigationTitle("Success")
-                    .navigationBarItems(trailing: Button(action: {
-                        self.showScannerSheet = true
-                    }, label: {
-                        Image(systemName: "doc.text.viewfinder")
-                            .font(.title)
-                    })
-                    .sheet(isPresented: $showScannerSheet, content: {
-                        self.makeScannerView()
-                    })
-                    )
-                
+                .navigationTitle("Success")
+                .navigationBarItems(trailing: Button(action: {
+                    self.showScannerSheet = true
+                }, label: {
+                    Image(systemName: "doc.text.viewfinder")
+                        .font(.title)
+                        .foregroundColor(.white)
+                })
+                .sheet(isPresented: $showScannerSheet, content: {
+                    self.makeScannerView()
+                })
+                )
             }
+
         }
         else if (status == .failure) {
             NavigationView{
@@ -90,31 +96,32 @@ struct ContentView: View {
                             .font(.title)
                             .multilineTextAlignment(.center)
                             .padding()
-                        
-                        
+                            
                         Button(action: {
                             self.showScannerSheet = true
                         }, label: {
                             Image(systemName: "doc.text.viewfinder")
                                 .font(.title)
                         })
+                            .padding(16)
+                            .background(Color.blue)
+                            .foregroundColor(.white)
+                            .cornerRadius(8)
                     }
-                    
                 }
-                
-                
-                    .navigationTitle("Alerta")
-                    .navigationBarItems(trailing: Button(action: {
-                        self.showScannerSheet = true
-                    }, label: {
-                        Image(systemName: "doc.text.viewfinder")
-                            .font(.title)
-                    })
-                    .sheet(isPresented: $showScannerSheet, content: {
-                        self.makeScannerView()
-                    })
-                    )
+                .navigationTitle("Alerta")
+                .navigationBarItems(trailing: Button(action: {
+                    self.showScannerSheet = true
+                }, label: {
+                    Image(systemName: "doc.text.viewfinder")
+                        .font(.title)
+                })
+                .sheet(isPresented: $showScannerSheet, content: {
+                    self.makeScannerView()
+                })
+                )
             }
+
         }
         else if(status == .nodata){
             NavigationView{
@@ -160,7 +167,7 @@ struct ContentView: View {
                     self.status = .nodata
                 }
                 else {
-                    self.status = .failure
+                    self.status = .success
                     self.SerieFiscala = newScanData.content
                 }
             }
